@@ -1,0 +1,74 @@
+{
+  "nodes": {
+    "devshell": {
+      "locked": {
+        "lastModified": 1620641550,
+        "narHash": "sha256-o359KdI/LNiPL6EbirONff2MOvZHtZr9MgYx3R9oVFk=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "a47493423092f6c4c0a7eb605a7cd515a77db4a8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1620759905,
+        "narHash": "sha256-WiyWawrgmyN0EdmiHyG2V+fqReiVi8bM9cRdMaKQOFg=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "b543720b25df6ffdfcf9227afafc5b8c1fabfae8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "gp-saml-gui": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1609272171,
+        "narHash": "sha256-GOXu2i71xDtUwyBmy3mTCoueWepu33eeCC6ablypPM0=",
+        "owner": "dlenski",
+        "repo": "gp-saml-gui",
+        "rev": "17b2ca675394f0cf244f1ee3fef1a4d3defc376c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dlenski",
+        "repo": "gp-saml-gui",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1621518411,
+        "narHash": "sha256-cw33BVX4wxDt0pYcApKcrwY7wE5psxE9VKuDgYKfCX4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a5eee47d7f49c1b629b100fa657c545153f40ba1",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "devshell": "devshell",
+        "flake-utils": "flake-utils",
+        "gp-saml-gui": "gp-saml-gui",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
